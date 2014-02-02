@@ -1,0 +1,14 @@
+***** Spectrum Digital Inc.   *****
+***** www.spectrumdigital.com *****
+
+Config File Path(sdopts.cfg) = C:\WINDOWS\SYSTEM
+Connecting to XDS510PP_PLUS or generic EZDSP
+Incoming Port Address     = 0x0378
+EmuPortAddr               = 0x0378
+Port Mode                 = SPP8
+EmuPortSpeed              = 0
+EmuAddLinkDelay(Total)    = 0
+EmuDisablePolling         = YES
+EmuPulseTrst              = YES
+Emulation memory allocated= 100000 words
+SCIF Error                = 0

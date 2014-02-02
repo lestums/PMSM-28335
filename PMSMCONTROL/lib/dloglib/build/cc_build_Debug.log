@@ -1,0 +1,9 @@
+----------------------------  dataLOG.pjt - Debug  ----------------------------
+[DLOG4CHC.asm] "C:\ti_c2000\c2000\cgtools\bin\cl2000" -g -q -fr"../obj" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../build/Debug.lkf" "DLOG4CHC.asm"
+
+[Archiving...] "C:\ti_c2000\c2000\cgtools\bin\ar2000" @"Debug.lkf"
+  ==>  new archive 'C:\tidcs_workshop\DMC\c28\lib\dloglib\lib\dataLOG.L28'
+  ==>  building archive 'C:\tidcs_workshop\DMC\c28\lib\dloglib\lib\dataLOG.L28'
+
+Build Complete,
+  0 Errors, 0 Warnings, 0 Remarks.

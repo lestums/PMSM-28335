@@ -1,0 +1,10 @@
+-r
+"C:\Texas_F2812\tmp2\DMC\c28\lib\drvlib\lib\DMCDRV_ml.L28"
+"C:\Texas_F2812\tmp2\c28\DSP28\obj\DSP28_usDelay.obj"
+"C:\Texas_F2812\tmp2\DMC\c28\lib\drvlib\obj\f28x_en.obj"
+"C:\Texas_F2812\tmp2\DMC\c28\lib\drvlib\obj\f28xcap.obj"
+"C:\Texas_F2812\tmp2\DMC\c28\lib\drvlib\obj\f28xileg_vdc.obj"
+"C:\Texas_F2812\tmp2\DMC\c28\lib\drvlib\obj\f28xileg_vdc_vcon.obj"
+"C:\Texas_F2812\tmp2\DMC\c28\lib\drvlib\obj\f28xpwm.obj"
+"C:\Texas_F2812\tmp2\DMC\c28\lib\drvlib\obj\f28xpwmdac.obj"
+"C:\Texas_F2812\tmp2\DMC\c28\lib\drvlib\obj\f28xqep.obj"

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?fileVersion 3.1.0?>
+
+<ManagedProjectBuildInfo>
+<project id="iqDMC_ml.com.ti.ccstudio.buildDefinitions.C2000.ProjectType.268912917" name="C2000" projectType="com.ti.ccstudio.buildDefinitions.C2000.ProjectType">
+<configuration artifactExtension="L28" artifactName="${EXT_ROOT__iqDMC_ml}/lib/iqDMC_ml" description="" id="com.ti.ccstudio.buildDefinitions.C2000.Debug.2015018020" name="Debug" parent="com.ti.ccstudio.buildDefinitions.C2000.Debug">
+<toolChain id="com.ti.ccstudio.buildDefinitions.C2000_5.2.libraryDebugToolchain.1707468770" name="TI Code Generation Tools" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.libraryDebugToolchain" targetTool="com.ti.ccstudio.buildDefinitions.C2000_5.2.library.librarianDebug.1454267139">
+<option id="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.73390630" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION" value="5.2.1" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.1689391847" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
+<listOptionValue builtIn="false" value="DEVICE_CONFIGURATION_ID=TMS320C28XX"/>
+<listOptionValue builtIn="false" value="DEVICE_ENDIANNESS=none"/>
+<listOptionValue builtIn="false" value="LINKER_COMMAND_FILE="/>
+<listOptionValue builtIn="false" value="RUNTIME_SUPPORT_LIBRARY="/>
+<listOptionValue builtIn="false" value="IS_ASSEMBLY_ONLY=false"/>
+<listOptionValue builtIn="false" value="CCS_MBS_VERSION=4.0.2"/>
+<listOptionValue builtIn="false" value="PROJECT_KIND=com.ti.ccstudio.managedbuild.core.ProjectKind_StaticLibrary"/>
+<listOptionValue builtIn="false" value="RTSC_PRODUCTS=com.ti.rtsc.XDAIS:latest;"/>
+<listOptionValue builtIn="false" value="LINK_ORDER="/>
+</option>
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.library.compilerDebug.728594009" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.library.compilerDebug">
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.DIAG_WARNING.911558697" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.DIAG_WARNING" valueType="stringList">
+<listOptionValue builtIn="false" value="225"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.INCLUDE_PATH.604258690" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.INCLUDE_PATH" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${XDAIS_CG_ROOT}/packages/ti/xdais&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${EXT_ROOT__iqDMC_ml}/include&quot;"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.QUIET_LEVEL.1912307347" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.QUIET_LEVEL" value="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.QUIET_LEVEL.QUIET" valueType="enumerated"/>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.OPT_LEVEL.2059360909" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.OPT_LEVEL" value="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.OPT_LEVEL.3" valueType="enumerated"/>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.DIRECTORY_MODE.1371170921" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.DIRECTORY_MODE" value="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.DIRECTORY_MODE.manual" valueType="enumerated"/>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.OBJ_DIRECTORY.770971565" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.OBJ_DIRECTORY" value="&quot;${EXT_ROOT__iqDMC_ml}/obj&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.DEFINE.1650324594" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.DEFINE" valueType="definedSymbols">
+<listOptionValue builtIn="false" value="&quot;_DEBUG&quot;"/>
+<listOptionValue builtIn="false" value="&quot;LARGE_MODEL&quot;"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.LARGE_MEMORY_MODEL.1361312218" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.LARGE_MEMORY_MODEL" value="true" valueType="boolean"/>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.SILICON_VERSION.177465957" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.SILICON_VERSION" value="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.SILICON_VERSION.28" valueType="enumerated"/>
+</tool>
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.library.librarianDebug.1454267139" name="C2000 Librarian" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.library.librarianDebug"/>
+<macros/>
+</toolChain>
+</configuration>
+<configuration artifactExtension="lib" artifactName="dmclib_cIQmath" description="" id="com.ti.ccstudio.buildDefinitions.C2000.Release.344525507" name="Release" parent="com.ti.ccstudio.buildDefinitions.C2000.Release">
+<toolChain id="com.ti.ccstudio.buildDefinitions.C2000_5.2.library.ReleaseToolchain.370518862" name="TI Code Generation Tools" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.library.ReleaseToolchain" targetTool="com.ti.ccstudio.buildDefinitions.C2000_5.2.library.librarianRelease.1125050746">
+<option id="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.1233577707" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION" value="5.2.1" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.1975885930" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
+<listOptionValue builtIn="false" value="DEVICE_CONFIGURATION_ID=TMS320C28XX"/>
+<listOptionValue builtIn="false" value="DEVICE_ENDIANNESS=none"/>
+<listOptionValue builtIn="false" value="LINKER_COMMAND_FILE="/>
+<listOptionValue builtIn="false" value="RUNTIME_SUPPORT_LIBRARY="/>
+<listOptionValue builtIn="false" value="IS_ASSEMBLY_ONLY=false"/>
+<listOptionValue builtIn="false" value="CCS_MBS_VERSION=4.0.2"/>
+<listOptionValue builtIn="false" value="PROJECT_KIND=com.ti.ccstudio.managedbuild.core.ProjectKind_StaticLibrary"/>
+<listOptionValue builtIn="false" value="RTSC_PRODUCTS=com.ti.rtsc.XDAIS:latest;"/>
+<listOptionValue builtIn="false" value="LINK_ORDER="/>
+</option>
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.library.compilerRelease.623441306" name="C2000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.library.compilerRelease">
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.DIAG_WARNING.1477268540" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.DIAG_WARNING" valueType="stringList">
+<listOptionValue builtIn="false" value="225"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.INCLUDE_PATH.23093540" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.INCLUDE_PATH" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${XDAIS_CG_ROOT}/packages/ti/xdais&quot;"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.QUIET_LEVEL.1196949455" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.QUIET_LEVEL" value="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.QUIET_LEVEL.QUIET" valueType="enumerated"/>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.OPT_LEVEL.library.release.1446740258" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.OPT_LEVEL.library.release" value="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.OPT_LEVEL.3" valueType="enumerated"/>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.DIRECTORY_MODE.1965413795" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.DIRECTORY_MODE" value="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.DIRECTORY_MODE.manual" valueType="enumerated"/>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.OBJ_DIRECTORY.457213119" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.OBJ_DIRECTORY" value="&quot;C:/DMC_Workshop/Pratique/tmp2/DMC/c28/lib/dmclib/cIQmath/build/Release&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.DEFINE.1504167049" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.DEFINE" valueType="definedSymbols">
+<listOptionValue builtIn="false" value="&quot;LARGE_MODEL&quot;"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.LARGE_MEMORY_MODEL.168459458" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.LARGE_MEMORY_MODEL" value="true" valueType="boolean"/>
+<option id="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.SILICON_VERSION.922939375" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.SILICON_VERSION" value="com.ti.ccstudio.buildDefinitions.C2000_5.2.compilerID.SILICON_VERSION.28" valueType="enumerated"/>
+</tool>
+<tool id="com.ti.ccstudio.buildDefinitions.C2000_5.2.library.librarianRelease.1125050746" name="C2000 Librarian" superClass="com.ti.ccstudio.buildDefinitions.C2000_5.2.library.librarianRelease"/>
+<macros/>
+</toolChain>
+</configuration>
+<macros/>
+</project>
+</ManagedProjectBuildInfo>

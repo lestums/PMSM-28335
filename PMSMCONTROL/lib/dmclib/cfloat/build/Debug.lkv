@@ -1,0 +1,12 @@
+-r
+"C:\tidcs_workshop\DMC\c28\lib\dmclib\cfloat\lib\fDMC_ml.L28"
+"C:\tidcs_workshop\DMC\c28\lib\dmclib\cfloat\obj\atan2_tab.obj"
+"C:\tidcs_workshop\DMC\c28\lib\dmclib\cfloat\obj\atan_tab.obj"
+"C:\tidcs_workshop\DMC\c28\lib\dmclib\cfloat\obj\clarke.obj"
+"C:\tidcs_workshop\DMC\c28\lib\dmclib\cfloat\obj\fix_float.obj"
+"C:\tidcs_workshop\DMC\c28\lib\dmclib\cfloat\obj\ipark.obj"
+"C:\tidcs_workshop\DMC\c28\lib\dmclib\cfloat\obj\park.obj"
+"C:\tidcs_workshop\DMC\c28\lib\dmclib\cfloat\obj\pid_reg3.obj"
+"C:\tidcs_workshop\DMC\c28\lib\dmclib\cfloat\obj\rampgen.obj"
+"C:\tidcs_workshop\DMC\c28\lib\dmclib\cfloat\obj\rmp_cntl.obj"
+"C:\tidcs_workshop\DMC\c28\lib\dmclib\cfloat\obj\sin_tab.obj"

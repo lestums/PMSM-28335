@@ -1,0 +1,34 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectName="dataLOG"
+ProjectDir="C:\Texas_F2812\tmp2\DMC\c28\lib\dloglib\build\"
+ProjectType=Library
+CPUFamily=TMS320C28XX
+Tool="Archiver"
+Tool="Compiler"
+Tool="DspBiosBuilder"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="..\src\DLOG4CHC.asm"
+
+["Archiver" Settings: "Debug"]
+Options=-r -o..\lib\dataLOG.L28
+
+["Archiver" Settings: "Release"]
+Options=-r -o.\Release\dataLOG.lib
+
+["Compiler" Settings: "Debug"]
+Options=-g -q -fr"..\obj" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28
+
+["Compiler" Settings: "Release"]
+Options=-q -o3 -fr"C:\Texas_F2812\tmp2\DMC\c28\lib\dloglib\build\Release" -d"LARGE_MODEL" -ml -v28
+
+["DspBiosBuilder" Settings: "Debug"]
+Options=-v28
+
+["DspBiosBuilder" Settings: "Release"]
+Options=-v28
+

@@ -1,0 +1,26 @@
+---------------------------  DMCDRV_ml.pjt - Debug  ---------------------------
+"C:\ti\c2000\cgtools\bin\cl2000" -g -q -fr"../obj/" -i"../include" -i"../../../../../c28/DSP28/include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../../../DMC/c28/lib/drvlib/build/Debug.lkf" "DSP28_usDelay.asm"
+
+"C:\ti\c2000\cgtools\bin\cl2000" -g -q -fr"../obj/" -i"../include" -i"../../../../../c28/DSP28/include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../build/Debug.lkf" "f28x_en.c"
+
+"C:\ti\c2000\cgtools\bin\cl2000" -g -q -fr"../obj/" -i"../include" -i"../../../../../c28/DSP28/include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../build/Debug.lkf" "f28xcap.c"
+
+"C:\ti\c2000\cgtools\bin\cl2000" -g -q -fr"../obj/" -i"../include" -i"../../../../../c28/DSP28/include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../build/Debug.lkf" "f28xileg_vdc.c"
+
+"C:\ti\c2000\cgtools\bin\cl2000" -g -q -fr"../obj/" -i"../include" -i"../../../../../c28/DSP28/include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../build/Debug.lkf" "f28xileg_vdc_vcon.c"
+
+"C:\ti\c2000\cgtools\bin\cl2000" -g -q -fr"../obj/" -i"../include" -i"../../../../../c28/DSP28/include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../build/Debug.lkf" "f28xpwm.c"
+
+"C:\ti\c2000\cgtools\bin\cl2000" -g -q -fr"../obj/" -i"../include" -i"../../../../../c28/DSP28/include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../build/Debug.lkf" "f28xpwmdac.c"
+
+"C:\ti\c2000\cgtools\bin\cl2000" -g -q -fr"../obj/" -i"../include" -i"../../../../../c28/DSP28/include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../build/Debug.lkf" "f28xqep.c"
+
+"C:\ti\c2000\cgtools\bin\ar2000" @"Debug.lkf"
+  ==>  new archive 'C:\Texas_F2812\tmp2\DMC\c28\lib\drvlib\lib\DMCDRV_ml.L28'
+  ==>  member name 'C:\Texas_F2812\tmp2\c28\DSP28\obj\DSP28_usDelay.obj', truncated to 'DSP28_usDelay.o'
+  ==>  member name 'C:\Texas_F2812\tmp2\DMC\c28\lib\drvlib\obj\f28xileg_vdc.obj', truncated to 'f28xileg_vdc.ob'
+  ==>  member name 'C:\Texas_F2812\tmp2\DMC\c28\lib\drvlib\obj\f28xileg_vdc_vcon.obj', truncated to 'f28xileg_vdc_vc'
+  ==>  building archive 'C:\Texas_F2812\tmp2\DMC\c28\lib\drvlib\lib\DMCDRV_ml.L28'
+
+Build Complete,
+  0 Errors, 0 Warnings, 0 Remarks.

@@ -1,0 +1,64 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectName="I3SProjectPMSM"
+ProjectDir="C:\Documents and Settings\projet\Bureau\TestCode 1\PMSMCONTROL\sys\build"
+ProjectType=Executable
+CPUFamily=TMS320C28XX
+Tool="Compiler"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="..\..\..\DSP2833x\source\DSP2833x_DefaultIsr.c"
+Source="..\..\..\DSP2833x\source\DSP2833x_GlobalVariableDefs.c"
+Source="..\..\..\DSP2833x\source\DSP2833x_PieCtrl.c"
+Source="..\..\..\DSP2833x\source\DSP2833x_PieVect.c"
+Source="..\..\..\DSP2833x\source\DSP2833x_SysCtrl.c"
+Source="..\..\..\DSP2833x\source\DSP2833x_ADC_cal.asm"
+Source="..\..\..\DSP2833x\source\DSP2833x_usDelay.asm"
+Source="..\..\lib\drvlib\src\F28335_qep.c"
+Source="..\..\lib\drvlib\src\F28335_vdc.c"
+Source="..\..\lib\drvlib\src\F28335_pwm.c"
+Source="..\..\lib\dloglib\src\DLOG4CHC.asm"
+Source="..\..\lib\dmclib\cfloat\src\atan_tab.c"
+Source="..\..\lib\dmclib\cIQmath\src\clarke.c"
+Source="..\..\lib\dmclib\cfloat\src\fix_float.c"
+Source="..\..\lib\dmclib\cIQmath\src\ipark.c"
+Source="..\..\lib\dmclib\cIQmath\src\park.c"
+Source="..\..\lib\dmclib\cIQmath\src\pid_reg3.c"
+Source="..\..\lib\dmclib\cIQmath\src\rampgen.c"
+Source="..\..\lib\dmclib\cIQmath\src\rmp_cntl.c"
+Source="..\..\lib\dmclib\cIQmath\src\speed_fr.c"
+Source="..\..\lib\dmclib\cIQmath\src\svgen_dq.c"
+Source="..\..\lib\dmclib\cfloat\src\sin_tab.c"
+Source="..\..\lib\dmclib\cfloat\src\atan2_tab.c"
+Source="..\..\lib\dloglib\lib\dataLOG.L28"
+Source="..\..\lib\dmclib\cfloat\lib\fDMC_ml.L28"
+Source="..\..\lib\dmclib\cIQmath\lib\iqDMC_ml.L28"
+Source="..\..\lib\dmclib\cIQmath\lib\IQmath.lib"
+Source="..\..\lib\drvlib\lib\DMCDRV_ml.L28"
+Source="..\src\pmsm.c"
+Source="DSP2833x_Headers_nonBIOS.cmd"
+Source="28335_RAM_lnk.cmd"
+
+["Compiler" Settings: "Debug"]
+Options=-g -q -fr"..\obj" -fr"..\..\lib\dloglib\obj" -fr"..\..\lib\dmclib\obj" -fr"..\..\lib\drvlib\obj" -i".\include" -i"..\include" -i"..\..\lib\dmclib\cIQmath\include" -i"..\..\lib\dmclib\cfloat\include" -i"..\..\..\DSP2833x\include" -i"..\..\lib\dloglib\include" -i"..\..\lib\drvlib\include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28
+
+["Compiler" Settings: "Release"]
+Options=-q -o3 -fr"C:\temp\MS\pmsm1\DMC\c28\sys\pmsm3_1\cIQmath\build\obj" -d"LARGE_MODEL" -ml -v28
+
+["DspBiosBuilder" Settings: "Debug"]
+Options=-v28
+
+["DspBiosBuilder" Settings: "Release"]
+Options=-v28
+
+["Linker" Settings: "Debug"]
+Options=-q -c -m"..\build\pmsm.map" -o"..\build\pmsm.out" -stack0x50 -x -i"C:\Program Files\Texas Instruments\ccsv4\tools\compiler\c2000\lib" -l"rts2800_ml.lib"
+
+["Linker" Settings: "Release"]
+Options=-q -c -o".\Release\k1_ev.out" -x
+

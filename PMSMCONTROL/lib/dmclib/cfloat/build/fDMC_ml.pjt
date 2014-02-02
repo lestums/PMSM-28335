@@ -1,0 +1,55 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectName="dmclib_cfloat"
+ProjectDir="C:\tidcs_workshop\DMC\c28\lib\dmclib\cfloat\build\"
+ProjectType=Library
+CPUFamily=TMS320C28XX
+Tool="Archiver"
+Tool="Compiler"
+Tool="DspBiosBuilder"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="..\src\atan2_tab.c"
+Source="..\src\atan_tab.c"
+Source="..\src\clarke.c"
+Source="..\src\fix_float.c"
+Source="..\src\ipark.c"
+Source="..\src\park.c"
+Source="..\src\pid_reg3.c"
+Source="..\src\rampgen.c"
+Source="..\src\rmp_cntl.c"
+Source="..\src\sin_tab.c"
+
+[Generated Files]
+Source="..\obj\atan2_tab.obj"
+Source="..\obj\atan_tab.obj"
+Source="..\obj\clarke.obj"
+Source="..\obj\fix_float.obj"
+Source="..\obj\ipark.obj"
+Source="..\obj\park.obj"
+Source="..\obj\pid_reg3.obj"
+Source="..\obj\rampgen.obj"
+Source="..\obj\rmp_cntl.obj"
+Source="..\obj\sin_tab.obj"
+
+["Archiver" Settings: "Debug"]
+Options=-r -o..\lib\fDMC_ml.L28
+
+["Archiver" Settings: "Release"]
+Options=-r -o.\Release\dmclib_cfloat.lib
+
+["Compiler" Settings: "Debug"]
+Options=-g -q -o3 -fr"..\obj\" -i"..\include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28
+
+["Compiler" Settings: "Release"]
+Options=-q -o3 -fr"C:\tidcs_workshop\DMC\c28\lib\dmclib\cfloat\build\Release" -d"LARGE_MODEL" -ml -v28
+
+["DspBiosBuilder" Settings: "Debug"]
+Options=-v28
+
+["DspBiosBuilder" Settings: "Release"]
+Options=-v28
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>DMCDRV_ml</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>DSP2833x_usDelay.asm</name>
+			<type>1</type>
+			<locationURI>EXT_ROOT__DMCDRV_ml/DSP2833x/source/DSP2833x_usDelay.asm</locationURI>
+		</link>
+		<link>
+			<name>F28335_vdc.c</name>
+			<type>1</type>
+			<locationURI>EXT_ROOT__DMCDRV_ml/PMSMCONTROL/lib/drvlib/src/F28335_vdc.c</locationURI>
+		</link>
+		<link>
+			<name>F28335_pwm.c</name>
+			<type>1</type>
+			<locationURI>EXT_ROOT__DMCDRV_ml/PMSMCONTROL/lib/drvlib/src/F28335_pwm.c</locationURI>
+		</link>
+		<link>
+			<name>F28335_qep.c</name>
+			<type>1</type>
+			<locationURI>EXT_ROOT__DMCDRV_ml/PMSMCONTROL/lib/drvlib/src/F28335_qep.c</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

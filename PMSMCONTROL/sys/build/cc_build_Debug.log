@@ -1,0 +1,17 @@
+-------------------------  pmsm3_1_dmc550.pjt - Debug  -------------------------
+[DSP28_DefaultIsr.c] "C:\ti\c2000\cgtools\bin\cl2000" -g -q -fr"../obj" -i"./include" -i"../include" -i"../../../../lib/dmclib/cIQmath/include" -i"../../../../../../c28/DSP28/include" -i"../../../../lib/dloglib/include" -i"../../../../lib/drvlib/include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../../../DMC/c28/sys/pmsm3_1/cIQmath/build/Debug.lkf" "DSP28_DefaultIsr.c"
+
+[DSP28_GlobalVariableDefs.c] "C:\ti\c2000\cgtools\bin\cl2000" -g -q -fr"../obj" -i"./include" -i"../include" -i"../../../../lib/dmclib/cIQmath/include" -i"../../../../../../c28/DSP28/include" -i"../../../../lib/dloglib/include" -i"../../../../lib/drvlib/include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../../../DMC/c28/sys/pmsm3_1/cIQmath/build/Debug.lkf" "DSP28_GlobalVariableDefs.c"
+
+[DSP28_PieCtrl.c] "C:\ti\c2000\cgtools\bin\cl2000" -g -q -fr"../obj" -i"./include" -i"../include" -i"../../../../lib/dmclib/cIQmath/include" -i"../../../../../../c28/DSP28/include" -i"../../../../lib/dloglib/include" -i"../../../../lib/drvlib/include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../../../DMC/c28/sys/pmsm3_1/cIQmath/build/Debug.lkf" "DSP28_PieCtrl.c"
+
+[DSP28_PieVect.c] "C:\ti\c2000\cgtools\bin\cl2000" -g -q -fr"../obj" -i"./include" -i"../include" -i"../../../../lib/dmclib/cIQmath/include" -i"../../../../../../c28/DSP28/include" -i"../../../../lib/dloglib/include" -i"../../../../lib/drvlib/include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../../../DMC/c28/sys/pmsm3_1/cIQmath/build/Debug.lkf" "DSP28_PieVect.c"
+
+[DSP28_SysCtrl.c] "C:\ti\c2000\cgtools\bin\cl2000" -g -q -fr"../obj" -i"./include" -i"../include" -i"../../../../lib/dmclib/cIQmath/include" -i"../../../../../../c28/DSP28/include" -i"../../../../lib/dloglib/include" -i"../../../../lib/drvlib/include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../../../DMC/c28/sys/pmsm3_1/cIQmath/build/Debug.lkf" "DSP28_SysCtrl.c"
+
+[pmsm3_1.c] "C:\ti\c2000\cgtools\bin\cl2000" -g -q -fr"../obj" -i"./include" -i"../include" -i"../../../../lib/dmclib/cIQmath/include" -i"../../../../../../c28/DSP28/include" -i"../../../../lib/dloglib/include" -i"../../../../lib/drvlib/include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28 -@"../build/Debug.lkf" "pmsm3_1.c"
+
+[Linking...] "C:\ti\c2000\cgtools\bin\cl2000" -@"Debug.lkf"
+
+Build Complete,
+  0 Errors, 0 Warnings, 0 Remarks.

@@ -1,0 +1,58 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectName="dmclib_cIQmath"
+ProjectDir="C:\DMC_Workshop\Pratique\tmp2\DMC\c28\lib\dmclib\cIQmath\build\"
+ProjectType=Library
+CPUFamily=TMS320C28XX
+Tool="Archiver"
+Tool="Compiler"
+Tool="DspBiosBuilder"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="..\lib\IQmath.lib"
+Source="..\obj\clarke.obj"
+Source="..\obj\ipark.obj"
+Source="..\obj\park.obj"
+Source="..\obj\pid_reg3.obj"
+Source="..\obj\rampgen.obj"
+Source="..\obj\rmp_cntl.obj"
+Source="..\obj\speed_fr.obj"
+Source="..\obj\speed_pr.obj"
+Source="..\obj\svgen_dq.obj"
+Source="..\obj\svgen_mf.obj"
+Source="..\obj\vhzprof.obj"
+Source="..\obj\volt_calc.obj"
+Source="..\src\clarke.c"
+Source="..\src\ipark.c"
+Source="..\src\park.c"
+Source="..\src\pid_reg3.c"
+Source="..\src\rampgen.c"
+Source="..\src\rmp_cntl.c"
+Source="..\src\speed_fr.c"
+Source="..\src\speed_pr.c"
+Source="..\src\svgen_dq.c"
+Source="..\src\svgen_mf.c"
+Source="..\src\vhzprof.c"
+Source="..\src\volt_calc.c"
+
+["Archiver" Settings: "Debug"]
+Options=-r -o..\lib\iqDMC_ml.L28
+
+["Archiver" Settings: "Release"]
+Options=-r -o.\Release\dmclib_cIQmath.lib
+
+["Compiler" Settings: "Debug"]
+Options=-g -q -o3 -fr"..\obj\" -i"..\include" -d"_DEBUG" -d"LARGE_MODEL" -ml -v28
+
+["Compiler" Settings: "Release"]
+Options=-q -o3 -fr"C:\DMC_Workshop\Pratique\tmp2\DMC\c28\lib\dmclib\cIQmath\build\Release" -d"LARGE_MODEL" -ml -v28
+
+["DspBiosBuilder" Settings: "Debug"]
+Options=-v28
+
+["DspBiosBuilder" Settings: "Release"]
+Options=-v28
+
